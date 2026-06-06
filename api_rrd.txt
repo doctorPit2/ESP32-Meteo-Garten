@@ -1,0 +1,1 @@
+{"totalEntries":1,"lastUpdate":1780560899,"timestamps":[1780560899],"temperatures":[12.9],"humidities":[56],"pressures":[972],"windSpeeds":[9.7],"rainfalls":[14.8],"rainfallTotals":[0.0]}

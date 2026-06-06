@@ -1,0 +1,64 @@
+Paket #3 | Samples: 3/900 | Temp: 12.7°C
+Paket #4 | Samples: 4/900 | Temp: 12.7°C
+Paket #5 | Samples: 5/900 | Temp: 12.7°C
+E (19043) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (19043) task_wdt:  - async_tcp (CPU 1)
+E (19043) task_wdt: Tasks currently running:
+E (19043) task_wdt: CPU 0: IDLE0
+E (19043) task_wdt: CPU 1: async_tcp
+E (19043) task_wdt: Aborting.
+
+abort() was called at PC 0x400eac95 on core 0
+
+
+Backtrace: 0x400837c5:0x3ffbecec |<-CORRUPTED
+
+
+
+
+ELF file SHA256: b28fdafd19370f8e
+
+Rebooting...
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+
+
+========================================
+ESP32 Meteo Garten SD - RRD Logger
+========================================
+
+
+Verbinde mit WiFi: lenovo
+.
+WiFi verbunden!
+IP-Adresse: 192.168.100.181
+WiFi-Kanal: 1
+Synchronisiere Zeit mit NTP-Server...
+
+Zeit synchronisiert!
+Wednesday, 03. June 2026 12:49:44
+Initialisiere SD-Karte...
+SD-Karte Typ: SDHC
+SD-Karte Größe: 29820MB
+Freier Speicher: 0MB
+RRD-Datei gefunden, lade Daten...
+RRD geladen: Index=40, Einträge=1073514596
+ESP-NOW erfolgreich initialisiert
+ESP-NOW Kanal: 1
+Webserver gestartet!
+URL: http://192.168.100.181
+
+========================================
+System bereit!
+Warte auf ESP-NOW Daten...
+========================================
+
+Paket #1 | Samples: 1/900 | Temp: 12.7°C
